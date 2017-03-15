@@ -6,4 +6,9 @@
 ## Abstract
 
 * xv6p implements the whole set of features possible using x86 paging hardware to MIT's xv6.
-* 
+ 
+## Team Members
+* Salman Shah
+* Aiman Abdullah
+* Jyoti Prakash
+* Abhishek S.
