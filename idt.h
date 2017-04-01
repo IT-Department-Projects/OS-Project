@@ -1,7 +1,8 @@
 #ifndef IDT_H
 #define IDT_H
 
-#define "types.h"
+#include "types.h"
+#include "util.h"
 
 #define KERNEL_CS 0x08
 
@@ -37,4 +38,6 @@ void set_idt() {
 	__asm__ __volatile__("lidtl (%0)" : : "r" (&idt_reg));
 }
 
+
+#endif
 

@@ -105,12 +105,13 @@ void printch(char c)
 void print (string ch)
 {
         uint16 i = 0;
-        uint8 length = strlength(ch)-1;              //Updated (Now we store string length on a variable to call the function only once)
+        uint8 length = strlength(ch);              //Updated (Now we store string length on a variable to call the function only once)
         for(i;i<length;i++)
         {
                 printch(ch[i]);
         }
 }
+
 int exit1()
 {
 	uint8 condition = 0;
