@@ -2,32 +2,18 @@
 #include "include/kb.h"
 #include "include/string.h"
 #include "include/types.h"
-#include <stdio.h>
+#include "include/isr.h"
+#include "include/idt.h"
+#include "include/shell.h"
 
-
+  
 kmain()
 {
-       clearScreen();
-       print("Welcome to JARVIS Operating System\n");
-       string condition = "1"; 
-       while (condition)
-       {
-                print("\nJARVIS> ");
-                
-                string ch = readStr();
-                if(strEql(ch,"clear"))
-                {
-                        clearScreen();
-                }
-                
-                else
-                {
-                        print("\nBad command!\n");
-                }
-                
-                print("\n");        
-       }
-	print("Good Buy :)");
+	isr_install();
+	clearScreen();
+	print("Welcome to JARVIS OS\nPlease enter a command\n");
+    launch_shell();    
+}
 
         
-}
+
