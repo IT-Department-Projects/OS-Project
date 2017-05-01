@@ -1,14 +1,10 @@
-# OS-Project
+# OS-Project - Jarvis 
 
-## Project Documents
-* The project proposal can be found [here](https://docs.google.com/document/d/17odFVuplMX44I-PldWdqGub3ljlvM29_wX1j4DXOfvU/edit?usp=sharing)
-* The ProjectReport can be found [here]()
+## About
+* Building our own Operating System using 
 
-###TO COMPILE THE CODE:
-Run build.sh (Make sure it is marked as executable http://youtu.be/rr-9w2gITDM?t=4m37s)
-
-If you have any qwestion feel free to ask, Also don't forget to subscribe.
-Thank you
+## TO COMPILE THE CODE:
+Run the makefile by writing the code `make`
 
     ____________________
 ## |-----What's new-----|
